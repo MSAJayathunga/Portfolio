@@ -416,10 +416,18 @@ padding-bottom: 70px;
     margin-bottom: 30px;
 }
 
-.service-list div h2{
+.service-list div h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+
+.service-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .read{
@@ -438,3 +446,12 @@ padding-bottom: 70px;
     0 0 25px #0ef;
     }
 
+.read:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    } 
+
+.service-list div :hover {
+    transform: translateY(-10px);
+}
